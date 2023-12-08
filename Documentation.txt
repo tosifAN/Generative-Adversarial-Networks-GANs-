@@ -1,0 +1,34 @@
+               Documentation
+
+FOR SRGAN:
+
+Clone the repository:  
+git clone 
+https://github.com/tosifAN/Vehicle_Counting_And_Speed_estimation
+
+Download the trained model:
+https://github.com/AarohiSingla/SRGAN_CustomDataset/tree/main/pretrained_models
+After downloading the model, place it at ./model
+
+
+Testing:
+Update the test_data/cars folder with your test images.
+Run the following command:
+python main.py --mode test_only --LR_path test_data/cars --generator_path ./model/srgan_custom.pt
+Results will be saved in the result folder
+
+
+ESRGAN:
+
+Run the Colab file in ESRGAN folder:
+Navigate to the ESRGAN folder.
+Run the Colab file provided in the folder.
+
+Mount with Google Drive
+Create folder 
+Upload Souce image on LR Folder
+Result save at results folder
+
+
+
+These steps provide guidance for using SRGAN and ESRGAN, from cloning the repository to testing images using the trained models and specifying where the results will be saved. Adjust paths and folders according to your setup.
